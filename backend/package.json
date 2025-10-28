@@ -1,0 +1,16 @@
+{
+  "name": "ecommerce-backend",
+  "version": "1.0.0",
+  "description": "JSON Server backend for ecommerce application",
+  "main": "server.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3001",
+    "dev": "json-server --watch db.json --port 3001"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "keywords": ["json-server", "api", "backend", "ecommerce"],
+  "author": "",
+  "license": "ISC"
+}
